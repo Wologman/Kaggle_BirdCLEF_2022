@@ -1,0 +1,8 @@
+#Write this up properly later, just recording my conda commands here
+#This was for my RTX 3060.  For my 1060 use lower version of cudatoolkit
+
+conda create -n AudioML_3060 python=3.9.1
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install Jupyter
+conda install joblib numpy pandas tqdm
+pip install soundfile torchlibrosa sklearn colorednoise timm albumentations transformers
