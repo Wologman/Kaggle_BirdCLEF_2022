@@ -1,8 +1,8 @@
 # Kaggle_BirdCLEF_2022
 
-[Competition web page](https://www.kaggle.com/competitions/birdclef-2022)
+[Predict Bird species from Sound recordings - Competition web page](https://www.kaggle.com/competitions/birdclef-2022)
 
-Bird species classification from sound recordings.  This year the competition was only scored on 21 specific birds of interest, located in Hawaii, where all the sound recordings were from.  Results format was true or false for each bird, for each 5 second time segment.  The recordings had no geo-reference, but some birds are endemic to specific islands, some are only found near the ocean, some inland, so there was the potential to do some interesting post processing with this competition.
+This year the competition was only scored on 21 specific birds of interest, located in Hawaii, where all the sound recordings were from.  Results format was true or false for each bird, for each 5 second time segment.  The recordings had no geo-reference, but some birds are endemic to specific islands, some are only found near the ocean, some inland, so there was the potential to do some interesting post processing with this competition.
 
 I made good progress compared to last year with this, but was still a little disappointed with the performance on the private dataset (84% of the data).  I went backwards compared to one of my earlier models, which had less augmentation, and only one fold, when my final submissions ensembled 5 folds.  I should have thought more carefully about the key differences from the previous year, and made larger changes to the training and inference notebooks.  It made a big difference only searching for the 21 scored birds out of a much larger training set.  And the evaluation metric was quite different also.
 
