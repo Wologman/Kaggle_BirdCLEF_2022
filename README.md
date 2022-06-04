@@ -17,7 +17,7 @@ It was interesting to note that with these better models, some high scoring note
 
 * Pre-train for all birds to a fixed number of epochs (improves generalisation as the training is on a much larger dataset) on 2021 & 2022 datasets.  Then fine tune on the small subset used for the competition (in primary or secondary label), with a more specific CV metric.
 
-* Post process: audio was slided by some offset (in our case 1.5 seconds forward and backward) and then aggregated as follows: p = 0.5*p0 + 0.25*pr + 0.25*pl   [7th place solution](https://www.kaggle.com/competitions/birdclef-2022/discussion/326979)
+* Post process: audio was slided by some offset (in their case 1.5 seconds forward and backward) and then aggregated as follows: p = 0.5*p0 + 0.25*pr + 0.25*pl   [7th place solution](https://www.kaggle.com/competitions/birdclef-2022/discussion/326979)
 
 * Finetuning with weighted sampling (w~N^0.5)
 
