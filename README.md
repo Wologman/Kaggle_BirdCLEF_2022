@@ -1,6 +1,6 @@
 # Kaggle_BirdCLEF_2022
 
-[Predict Bird species from sound recordings - Competition web page](https://www.kaggle.com/competitions/birdclef-2022)
+Predict Bird species from sound recordings - [Competition web page](https://www.kaggle.com/competitions/birdclef-2022)
 
 This year the competition was only scored on 21 specific birds of interest, located in Hawaii, where all the sound recordings were from.  Results format was true or false for each bird, for each 5 second time segment.  The recordings had no geo-reference, but some birds are endemic to specific islands, some are only found near the ocean, some inland, so there was the potential to do some interesting post processing with this competition.
 
