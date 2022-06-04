@@ -36,8 +36,6 @@ It was interesting to note that with these better models, some high scoring note
 
 * Ensemble several models, one of them being birdnet (Winning entry)
 
-* BCE loss, or BCE focal loss .  
-
 * Constant Q-transform instead of mel-scale spectrogram  [7th place solution](https://www.kaggle.com/competitions/birdclef-2022/discussion/326973)
 
 * Use long and short clipwise predictions with an AND rule, 5 seconds and 15 seconds, or use a 15 second clip for the whole model, whilst applying the head only to a centred 5 second chunk.
