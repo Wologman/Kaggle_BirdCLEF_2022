@@ -1,0 +1,32 @@
+Original Baseline by Kaerururu
+
+Val loss was optimal after 21 epochs  (7.5 hours)  So to do well in this comp I need to use colab or my machine.
+
+micro f1_0.3 0.7067395264116576
+overall micro f1_0.3 0.7067395264116576
+overall micro f1_0.5 0.6535714285714286
+
+
+
+V1   5 Folds, no changes
+
+micro f1_0.3 0.7072775924151827
+overall micro f1_0.3 0.7072775924151827
+overall micro f1_0.5 0.6582853562056946
+
+For f0 only
+Epoch 21 - train_f1_at_03:0.69375  valid_f1_at_03:0.69921
+Epoch 21 - train_f1_at_05:0.53712  valid_f1_at_05:0.65669
+
+
+
+V2 for f0 only  
+
+Epoch 25 - train_f1_at_03:0.72179  valid_f1_at_03:0.71352
+Epoch 25 - train_f1_at_05:0.58863  valid_f1_at_05:0.66641
+
+micro f1_0.3 0.7135189533713518
+overall micro f1_0.3 0.7135189533713518
+overall micro f1_0.5 0.66640609732265
+
+V3 I ran these seperately on my two machines.  So no score for overall 5 folds.
